@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #dc73fc; 
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    text-align: center;
+}
+
+
+.logo {
+    width: 300px; 
+    opacity: 0;
+    animation: aparecerLogo 2s forwards ease-out;
+}
+
+
+@keyframes aparecerLogo {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+.enter-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #00aaff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0;
+    margin-top: 30px; 
+    animation: aparecerBoton 1s 2.5s forwards ease-out; 
+}
+
+@keyframes aparecerBoton {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
