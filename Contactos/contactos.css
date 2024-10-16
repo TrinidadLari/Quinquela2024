@@ -1,0 +1,56 @@
+body{
+    height: 100vh;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    /* padding: 10%;
+    width: 70%; */
+  }
+
+  .Con_Main{
+    color:#f39c12;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #eac8f9;
+  }
+
+  .Thi_Li{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    -webkit-box-flex: 1 1 auto;
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+    vertical-align: middle;
+    white-space: nowrap;
+    padding: 15px;
+    font-size: 20px;
+  }
+
+  form{
+    width: 50%;
+    max-width: 70%;
+    margin: 0 auto;
+    background-color: #6b5b95;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .Thi_Lab {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+  }
+  .form_input{
+    width: 70%;
+  }
+  .Boton_Cont{
+    display: flex;
+    justify-content: end;
+  }
