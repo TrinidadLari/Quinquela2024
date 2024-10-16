@@ -1,0 +1,26 @@
+
+
+.botonescontenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-content: center;
+    height: 80vh;
+}
+
+.botontalleres{
+    width: 20%;
+    padding: 10px 20px;
+    background-color: #6b5b95;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.main.musica{
+    background-color: #dc73fc;
+}
