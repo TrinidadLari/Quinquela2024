@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Qwitcher+Grypen:wght@400;700&family=Shadows+Into+Light&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 h2{ 
     
     font-size: 50px;
@@ -13,6 +18,16 @@ h2{
 
 }
 .mainhistoria{
-     background-color: #dc73fc;
+    background-color: #eac8f9;
+     height: 100%;
 
+}
+.leyenda{
+    font-size: 25px;
+    color: rgb(118, 125, 120);
+
+    }
+.Quinquela{
+    display: flex;
+    justify-content: center;
 }
