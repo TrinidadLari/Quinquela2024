@@ -4,12 +4,19 @@
     box-sizing: border-box;
 }
 
+:root{
+    --colorLila: #dc73fc;  
+    --colorVerde: rgb(60,125,149);  
+    --colorAmarillo:  #F4CC07;
+    --shadow1: 0px 0px 1px 0px grey; 
+}
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #dc73fc; 
+    background-color: var(--colorLila); 
     font-family: Arial, sans-serif;
 }
 
@@ -42,7 +49,7 @@ body {
     padding: 10px 20px;
     font-size: 18px;
     color: white;
-    background-color: #00aaff;
+    background-color: var(--colorVerde);
     border: none;
     border-radius: 5px;
     cursor: pointer;
