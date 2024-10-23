@@ -4,9 +4,18 @@
     box-sizing: border-box;
 }
 
+:root{
+    --colorLila: #dc73fc;  
+    --colorVerde: rgb(60,125,149);  
+    --colorVerdeHover: #7755DD; 
+    --colorAmarillo:  #F4CC07;
+    --colorAmarilloHover:  #DDAA11;
+    --shadow1: 0px 0px 1px 0px grey; 
+}
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #eac8f9;
+    background-color: var(--colorLila);
     text-align: center;
     padding: 20px;
 }
@@ -22,12 +31,12 @@ header {
 
 h1 {
     font-size: 24px;
-    color: #6b5b95;
+    color: var(--colorVerde);
 }
 
 h2 {
     font-size: 18px;
-    color: #6b5b95;
+    color: var(--colorVerde);
     margin-bottom: 40px;
 }
 
@@ -55,7 +64,7 @@ h2 {
 
 .category-btn {
     padding: 10px 20px;
-    background-color: #6b5b95;
+    background-color: var(--colorVerde);
     color: white;
     border: none;
     border-radius: 10px;
@@ -65,7 +74,7 @@ h2 {
 }
 
 .category-btn:hover {
-    background-color: #483d8b;
+    background-color: var(--colorVerdeHover);
 }
 
 .bottom-links {
@@ -76,8 +85,8 @@ h2 {
 
 .link-btn {
     padding: 10px 20px;
-    background-color: #f39c12;
-    color: white;
+    background-color: var(--colorAmarillo);
+    color: rgb(0, 0, 0);
     border: none;
     border-radius: 10px;
     font-size: 16px;
@@ -86,5 +95,5 @@ h2 {
 }
 
 .link-btn:hover {
-    background-color: #e67e22;
+    background-color: var(--colorAmarilloHover);
 }
