@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Qwitcher+Grypen:wght@400;700&family=Shadows+Into+Light&display=swap');
+
+h2{ 
+    
+    font-size: 50px;
+    color: darkgreen;
+    text-align: center;
+    padding: 50px;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+.mainhistoria{
+     background-color: #dc73fc;
+
+}
