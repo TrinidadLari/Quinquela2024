@@ -1,4 +1,9 @@
-
+:root{
+    --colorLila: #dc73fc;  
+    --colorVerde: rgb(60,125,149);  
+    --colorAmarillo:  #F4CC07;
+    --shadow1: 0px 0px 1px 0px grey; 
+}
 
 .botonescontenedor{
     display: flex;
