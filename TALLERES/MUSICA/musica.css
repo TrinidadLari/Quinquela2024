@@ -2,7 +2,9 @@
     --colorLila: #dc73fc;  
     --colorVerde: rgb(60,125,149);  
     --colorAmarillo:  #F4CC07;
-    --shadow1: 6px 6px 6px 4px rgb(0, 0, 0); 
+    --shadow1: 0px 0px 1px 0px rgb(0, 0, 0); 
+    --colorfondo:  rgb(247 247 219);
+    
 }
 
 *{
@@ -39,7 +41,7 @@
 
 .main-musica{
     height: 100%;
-    background-color: var(--colorLila);
+    background-color: var(--colorfondo);
 }
 
 
