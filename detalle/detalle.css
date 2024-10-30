@@ -1,0 +1,25 @@
+:root{
+    --colorLila: #dc73fc;  
+    --colorVerde: rgb(60,125,149);  
+    --colorAmarillo:  #F4CC07;
+    --shadow1: 0px 0px 1px 0px grey; 
+}
+
+*¨{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.main-detalle {
+    background-color: var(--colorLila);
+}
+
+
+.titulo-taller
+
+.profesor
+
+.edad
+
+.descripcion
