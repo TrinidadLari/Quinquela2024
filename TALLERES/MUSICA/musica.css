@@ -6,7 +6,7 @@
 }
 
 *{
-    margin: o;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 
@@ -18,7 +18,7 @@
     justify-content: center;
     gap: 20px;
     align-content: center;
-    height: 80vh;
+    height: 100vh;
  
 }
 
@@ -40,4 +40,58 @@
 .main-musica{
     height: 100%;
     background-color: var(--colorLila);
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    background-color: #FFD700;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header a {
+    background-color: #4682B4;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+header a:hover {
+    background-color: #4169E1;
+}
+
+
+
+
+footer {
+    background-color: #FFD700;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #4682B4;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 700px) {
+
+header {
+    gap: 10px;
+}
+
+header a {
+    font-size: 12px;
+
+}
 }
