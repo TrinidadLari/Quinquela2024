@@ -44,7 +44,17 @@
     background-color: var(--colorfondo);
 }
 
+.contienecontenedor{
+    display: flex;
+    
+}
 
+.contenedorimagen{
+    align-content: center;
+}
+.contenedorimagen img{
+    width: 100%;
+}
 body {
     font-family: Arial, sans-serif;
 }
