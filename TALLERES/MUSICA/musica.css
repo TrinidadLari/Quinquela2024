@@ -1,0 +1,43 @@
+:root{
+    --colorLila: #dc73fc;  
+    --colorVerde: rgb(60,125,149);  
+    --colorAmarillo:  #F4CC07;
+    --shadow1: 6px 6px 6px 4px rgb(0, 0, 0); 
+}
+
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.botonescontenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-content: center;
+    height: 80vh;
+ 
+}
+
+.botontalleres{
+    /* width: 20%; */
+    padding: 10px 20px;
+    background-color: #6b5b95;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: var(--shadow1);
+    transition: background-color 0.3s;
+    text-decoration: underline;
+    line-height: 18px;
+}
+
+.main-musica{
+    height: 100%;
+    background-color: var(--colorLila);
+}
