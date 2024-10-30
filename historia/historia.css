@@ -31,3 +31,9 @@ h2{
     display: flex;
     justify-content: center;
 }
+.colordellogo{
+    display: flex;
+    justify-content: space-around;
+   height: 500px;
+}
+
