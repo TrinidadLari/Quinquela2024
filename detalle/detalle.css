@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
 :root{
     --colorLila: #dc73fc;  
     --colorVerde: rgb(60,125,149);  
     --colorAmarillo:  #F4CC07;
-    --shadow1: 0px 0px 1px 0px grey; 
+    --shadow1: 0px 0px 1px 0px rgb(0, 0, 0); 
+    --colorfondo:  rgb(247 247 219);
+
+--fuenteprincipal: "Sen", sans-serif;
+
 }
 
 *¨{ 
@@ -12,20 +18,31 @@
 
 }
 .main-detalle {
-    background-color: var(--colorLila);
+    background-color:var(--colorfondo);
 }
 
+.texto{
+    padding: 15px;
+}
 
-.titulo-taller
+.titulo-taller{
+    font-size: 32pt;
+}
 
-.profesor
+.profesor{
+    font-size: 18pt;
+}
 
-.edad
+.edad{
+    font-size: 12pt;
+}
 
-.descripcion
+.descripcion{
+    font-size: 14pt;
+}
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: var(--fuenteprincipal);
     margin: 0;
     padding: 0;
 }
