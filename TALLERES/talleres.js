@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const botones = document.querySelectorAll(".botontalleres");
 
+
     botones.forEach((boton, index) => {
         boton.addEventListener("click", () => {
             // Define las URLs de las páginas de destino
@@ -26,6 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 "../../../detalle/musica/vocalizacion-adultos.html",
                 "../../../detalle/musica/vocalizacion-ninos.html"
             ];
+
 
             // Redirige a la URL correspondiente
             window.location.href = urls[index];

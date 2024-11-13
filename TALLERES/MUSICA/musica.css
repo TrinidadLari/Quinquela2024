@@ -51,9 +51,10 @@
 
 .contenedorimagen{
     align-content: center;
+    margin: auto;
 }
 .contenedorimagen img{
-    width: 100%;
+    width: 250px;
 }
 body {
     font-family: Arial, sans-serif;
@@ -61,7 +62,6 @@ body {
 
 
 header {
-    background-color: #FFD700;
     padding: 10px;
     text-align: center;
     display: flex;
@@ -69,41 +69,97 @@ header {
     gap: 20px;
 }
 
+.header-musica {
+    background-color: var(--colorAmarillo);
+}
+
+.header-plastica {
+background-color: var(--colorLila);
+
+}
+
+.header-tecnologia {
+    background-color: var(--colorVerde);
+}
 header a {
-    background-color: #4682B4;
-    color: white;
+    /* background-color: #FFD700; */
+    color: rgb(0, 0, 0);
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 20px;
     font-weight: bold;
 }
 
-header a:hover {
-    background-color: #4169E1;
+.header-musica a:hover {
+    background-color: #e9c917;
+}
+
+.header-plastica a:hover {
+    background-color: #a245ee;
+}
+
+.header-tecnologia a:hover {
+    background-color: #43684e;
 }
 
 
 
 
 footer {
-    background-color: #FFD700;
-    padding: 10px;
+   height: 50px;
+    padding: 15px;
     text-align: center;
     font-weight: bold;
-    color: #4682B4;
+    color: #000000;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
 
+.footer-musica {
+    background-color: var(--colorAmarillo);
+}
+
+.footer-plastica {
+    background-color: var(--colorLila);
+}
+
+.footer-tecnologia {
+    background-color: var(--colorVerde);
+}
+
 @media (max-width: 700px) {
 
 header {
-    gap: 10px;
+    gap: 1px;
 }
 
 header a {
-    font-size: 12px;
+    font-size: 14px;
+    padding: 5px 10px;
+}
 
+.contienecontenedor{
+    flex-direction: column;
+    
+}
+
+.contenedorimagen img{
+    width: 200px;
+    margin-top: 50px;
+}
+
+.botonescontenedor{
+  
+   gap: 10px;
+    align-content: center;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 80px;
+ 
+}
+
+footer {
+    font-size: 12px;
 }
 }
