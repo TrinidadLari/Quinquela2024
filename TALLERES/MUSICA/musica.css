@@ -54,7 +54,7 @@
     margin: auto;
 }
 .contenedorimagen img{
-    width: 100%;
+    width: 250px;
 }
 body {
     font-family: Arial, sans-serif;
@@ -62,7 +62,6 @@ body {
 
 
 header {
-    /* background-color: #FFD700; */
     padding: 10px;
     text-align: center;
     display: flex;
@@ -107,8 +106,8 @@ header a {
 
 
 footer {
-    /* background-color: #FFD700; */
-    padding: 10px;
+   height: 50px;
+    padding: 15px;
     text-align: center;
     font-weight: bold;
     color: #000000;
