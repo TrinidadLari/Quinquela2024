@@ -51,9 +51,10 @@
 
 .contenedorimagen{
     align-content: center;
+    margin: auto;
 }
 .contenedorimagen img{
-    width: 100%;
+    width: 250px;
 }
 body {
     font-family: Arial, sans-serif;
@@ -61,7 +62,6 @@ body {
 
 
 header {
-    /* background-color: #FFD700; */
     padding: 10px;
     text-align: center;
     display: flex;
@@ -106,8 +106,8 @@ header a {
 
 
 footer {
-    /* background-color: #FFD700; */
-    padding: 10px;
+   height: 50px;
+    padding: 15px;
     text-align: center;
     font-weight: bold;
     color: #000000;
@@ -131,11 +131,35 @@ footer {
 @media (max-width: 700px) {
 
 header {
-    gap: 10px;
+    gap: 1px;
 }
 
 header a {
-    font-size: 12px;
+    font-size: 14px;
+    padding: 5px 10px;
+}
 
+.contienecontenedor{
+    flex-direction: column;
+    
+}
+
+.contenedorimagen img{
+    width: 200px;
+    margin-top: 50px;
+}
+
+.botonescontenedor{
+  
+   gap: 10px;
+    align-content: center;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 80px;
+ 
+}
+
+footer {
+    font-size: 12px;
 }
 }
