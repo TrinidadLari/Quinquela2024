@@ -47,3 +47,21 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.botones-eventos{
+
+    height: 100px;
+    padding: 50px;
+    color: rgb(37, 27, 16);
+    background-color: rgb(89, 200, 85);
+   margin-left: 45%;
+   font-size: xx-large;
+}
+h2{
+    font-size: 50px;
+    color: darkgreen;
+    text-align: center;
+    padding: 50px;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
