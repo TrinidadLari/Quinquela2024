@@ -21,7 +21,7 @@
     gap: 20px;
     align-content: center;
     height: 100vh;
- 
+ width: 70%;
 }
 
 .botontalleres{
@@ -31,12 +31,13 @@
     color: white;
     border: none;
     border-radius: 12px;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
     box-shadow: var(--shadow1);
     transition: background-color 0.3s;
     text-decoration: underline;
     line-height: 18px;
+
 }
 
 .main-musica{
@@ -51,7 +52,7 @@
 
 .contenedorimagen{
     align-content: center;
-    margin: auto;
+   margin-inline: 50px;
 }
 .contenedorimagen img{
     width: 250px;
@@ -87,6 +88,7 @@ header a {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 20px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -141,6 +143,7 @@ header a {
 
 .contienecontenedor{
     flex-direction: column;
+    /* width: 90%; */
     
 }
 
@@ -157,6 +160,10 @@ header a {
     margin-top: 50px;
     margin-bottom: 80px;
  
+}
+
+.botontalleres{
+    font-size: 12px;
 }
 
 footer {
