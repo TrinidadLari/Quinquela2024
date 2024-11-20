@@ -103,7 +103,15 @@ h2 {
         display: inline-block;
     }
 
+    .link-btn{
+      margin: 10px;
+    }
+
     h1 {
         font-size: 32px;
+    }
+
+    .categories {
+flex-direction: column;
     }
 }
