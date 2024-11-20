@@ -7,18 +7,19 @@
     --shadow1: 0px 0px 1px 0px rgb(0, 0, 0); 
     --colorfondo:  rgb(247 247 219);
 
---fuenteprincipal: "Sen", sans-serif;
-
+    --fuenteprincipal: "Sen", sans-serif;
 }
 
-*¨{ 
+*{ 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    overflow-x: hidden;
 }
+
 .main-detalle {
     background-color:var(--colorfondo);
+    height: 100vh;
 }
 
 .texto{
@@ -27,6 +28,7 @@
 
 .titulo-taller{
     font-size: 32pt;
+    margin-block: 30px;
 }
 
 .profesor{
@@ -35,6 +37,7 @@
 
 .edad{
     font-size: 12pt;
+    margin-block: 10px;
 }
 
 .descripcion{
@@ -82,4 +85,24 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+
+
+@media (max-width: 700px) {
+
+header {
+    gap: 1px;
+}
+
+header a {
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+
+
+footer {
+    font-size: 12px;
+}
 }
