@@ -11,7 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    overflow-x: hidden;
 }
 
 header {
@@ -43,8 +43,6 @@ body{
 .contenedor{
     display: flex;
     justify-content: center;
-    /* padding: 10%;
-    width: 70%; */
   }
 
   .Con_Main{
@@ -56,6 +54,7 @@ body{
     flex-direction: column;
     height: 100vh;
     background-color: #eac8f9;
+ 
   }
 
   .Thi_Li{
@@ -91,6 +90,7 @@ body{
   .Boton_Cont{
     display: flex;
     justify-content: end;
+    gap: 10px;
   }
 
   
@@ -104,4 +104,47 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+button{
+  margin-top: 20px;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+
+@media (max-width: 700px) {
+
+header {
+    gap: 1px;
+}
+
+header a {
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+form{
+  width: 90%;
+  max-width: 100%;
+}
+
+.Thi_Lab{
+  flex-direction: column;
+}
+
+.form_input{
+  width: 100%;
+}
+
+label{
+  margin-top: 20px;
+}
+
+footer {
+    font-size: 12px;
+}
 }
