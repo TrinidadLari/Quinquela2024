@@ -29,16 +29,18 @@
     /* width: 20%; */
     padding: 10px 20px;
     background-color: #6b5b95;
-    color: white;
     border: none;
-    border-radius: 12px;
-    font-size: 20px;
+    border-radius: 12px;   
     cursor: pointer;
     box-shadow: var(--shadow1);
     transition: background-color 0.3s;
+}
+
+.botontalleres a{
+    color: white;
+    font-size: 20px;
     text-decoration: underline;
     line-height: 18px;
-
 }
 
 .main-musica{
