@@ -90,6 +90,10 @@ h2{
   display: none;
 }
 
+.contenedor-evento img{
+    width: 500px;
+  }
+
 @media (max-width: 700px) {
   header {
     gap: 1px;
@@ -107,4 +111,11 @@ footer {
 .contenedor-evento img{
   width: 100vw;
 }
+}
+.nombres{
+    margin: 20px;
+    font-size: x-large;
+    text-align: center;
+    color: #3d3911;
+    background-color: rgb(99, 165, 138);
 }
