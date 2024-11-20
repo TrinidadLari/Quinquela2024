@@ -48,6 +48,7 @@ body {
 .enter-btn {
     padding: 10px 20px;
     font-size: 18px;
+    text-decoration: none;
     color: white;
     background-color: var(--colorVerde);
     border: none;
@@ -56,6 +57,12 @@ body {
     opacity: 0;
     margin-top: 30px; 
     animation: aparecerBoton 1s 2.5s forwards ease-out; 
+}
+
+.enter-btn a{
+  font-size: 18px;
+    text-decoration: none;
+    color: white;
 }
 
 @keyframes aparecerBoton {
