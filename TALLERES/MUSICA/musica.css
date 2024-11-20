@@ -1,0 +1,175 @@
+:root{
+    --colorLila: #dc73fc;  
+    --colorVerde: rgb(60,125,149);  
+    --colorAmarillo:  #F4CC07;
+    --shadow1: 0px 0px 1px 0px rgb(0, 0, 0); 
+    --colorfondo:  rgb(247 247 219);
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     overflow-x: hidden;
+
+}
+
+.botonescontenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-content: center;
+    height: 100vh;
+    width: 70%;
+}
+
+.botontalleres{
+    /* width: 20%; */
+    padding: 10px 20px;
+    background-color: #6b5b95;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: var(--shadow1);
+    transition: background-color 0.3s;
+    text-decoration: underline;
+    line-height: 18px;
+
+}
+
+.main-musica{
+    height: 100vh;
+    background-color: var(--colorfondo);
+}
+
+.contienecontenedor{
+    display: flex;
+    
+}
+
+.contenedorimagen{
+    align-content: center;
+   margin-inline: auto;
+}
+.contenedorimagen img{
+    width: 250px;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header-musica {
+    background-color: var(--colorAmarillo);
+}
+
+.header-plastica {
+background-color: var(--colorLila);
+
+}
+
+.header-tecnologia {
+    background-color: var(--colorVerde);
+}
+header a {
+    /* background-color: #FFD700; */
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header-musica a:hover {
+    background-color: #e9c917;
+}
+
+.header-plastica a:hover {
+    background-color: #a245ee;
+}
+
+.header-tecnologia a:hover {
+    background-color: #43684e;
+}
+
+
+
+
+footer {
+   height: 50px;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-musica {
+    background-color: var(--colorAmarillo);
+}
+
+.footer-plastica {
+    background-color: var(--colorLila);
+}
+
+.footer-tecnologia {
+    background-color: var(--colorVerde);
+}
+
+@media (max-width: 700px) {
+
+header {
+    gap: 1px;
+}
+
+header a {
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.contienecontenedor{
+    flex-direction: column;
+    
+}
+
+.contenedorimagen img{
+    width: 200px;
+    margin-top: 50px;
+      max-width: 100%;
+      display: block;
+}
+
+.botonescontenedor{
+  
+   gap: 10px;
+    align-content: center;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    width: 98%;
+ 
+}
+
+.botontalleres{
+    font-size: 12px;
+}
+
+footer {
+    font-size: 12px;
+}
+}

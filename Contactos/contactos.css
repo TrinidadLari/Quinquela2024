@@ -1,0 +1,150 @@
+:root{
+    --colorLila: #dc73fc;  
+    --colorVerde: rgb(60,125,149);  
+    --colorAmarillo:  #F4CC07;
+    --shadow1: 0px 0px 1px 0px rgb(0, 0, 0); 
+    --colorfondo:  rgb(247 247 219);
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+header {
+   background-color: azure;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header a {
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+header a:hover {
+    background-color: #cdcdcd;
+}
+
+
+body{
+    height: 100vh;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+  }
+
+  .Con_Main{
+    color:#f39c12;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #eac8f9;
+ 
+  }
+
+  .Thi_Li{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    -webkit-box-flex: 1 1 auto;
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+    vertical-align: middle;
+    white-space: nowrap;
+    padding: 15px;
+    font-size: 20px;
+  }
+
+  form{
+    width: 50%;
+    max-width: 70%;
+    margin: 0 auto;
+    background-color: #6b5b95;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .Thi_Lab {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+  }
+  .form_input{
+    width: 70%;
+  }
+  .Boton_Cont{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+  }
+
+  
+footer {
+   background-color: azure;
+   height: 50px;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+button{
+  margin-top: 20px;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+
+@media (max-width: 700px) {
+
+header {
+    gap: 1px;
+}
+
+header a {
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+form{
+  width: 90%;
+  max-width: 100%;
+}
+
+.Thi_Lab{
+  flex-direction: column;
+}
+
+.form_input{
+  width: 100%;
+}
+
+label{
+  margin-top: 20px;
+}
+
+footer {
+    font-size: 12px;
+}
+}

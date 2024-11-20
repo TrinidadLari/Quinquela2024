@@ -1,0 +1,110 @@
+:root{
+    --colorLila: #dc73fc;  
+    --colorVerde: rgb(60,125,149);  
+    --colorAmarillo:  #F4CC07;
+    --shadow1: 0px 0px 1px 0px rgb(0, 0, 0); 
+    --colorfondo:  rgb(247 247 219);
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+overflow-x: hidden;
+}
+
+header {
+   background-color: azure;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header a {
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+header a:hover {
+    background-color: #cdcdcd;
+}
+
+
+footer {
+   background-color: azure;
+   height: 50px;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.botones-eventos{
+
+    height: 100px; 
+    color: rgb(37, 27, 16);
+    background-color: rgb(99,165,138);
+   font-size: 24px;
+    margin: 10px 0;
+   width: 300px;
+   text-align: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.botones-eventos:hover {
+    background-color: var(--colorVerde);
+}
+
+h2{
+    font-size: 50px;
+    color: darkgreen;
+    text-align: center;
+    padding: 50px;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.eventos24-main{
+  padding-bottom: 100px;
+}
+
+.contenedor-evento{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.evento-oculto{
+  display: none;
+}
+
+@media (max-width: 700px) {
+  header {
+    gap: 1px;
+}
+
+header a {
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+footer {
+    font-size: 12px;
+}
+
+.contenedor-evento img{
+  width: 100vw;
+}
+}
