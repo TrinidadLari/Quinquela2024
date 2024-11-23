@@ -94,6 +94,24 @@ h2{
     width: 500px;
   }
 
+  .contenedor-ensambles{
+    display: flex;
+    flex-direction: column
+  }
+
+  .nombres{
+    display: inline-block;
+    margin-block: 20px;
+    padding: 10px;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: none;
+    color: #3d3911;
+    background-color: rgb(99, 165, 138);
+    cursor: pointer;
+}
+
+
 @media (max-width: 700px) {
   header {
     gap: 1px;
@@ -111,11 +129,8 @@ footer {
 .contenedor-evento img{
   width: 100vw;
 }
-}
+
 .nombres{
-    margin: 20px;
-    font-size: x-large;
-    text-align: center;
-    color: #3d3911;
-    background-color: rgb(99, 165, 138);
+  width: 100%;
+}
 }
