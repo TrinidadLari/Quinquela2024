@@ -66,11 +66,17 @@ h2 {
     padding: 10px 20px;
     background-color: var(--colorVerde);
     color: white;
+    text-decoration: none;
     border: none;
     border-radius: 10px;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s;
+}
+.category-btn a{
+   color: white;
+    text-decoration: none;
+    font-size: 16px;
 }
 
 .category-btn:hover {
@@ -87,11 +93,17 @@ h2 {
     padding: 10px 20px;
     background-color: var(--colorAmarillo);
     color: rgb(0, 0, 0);
+    text-decoration: none;
     border: none;
     border-radius: 10px;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s;
+}
+.link-btn a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
 }
 
 .link-btn:hover {
